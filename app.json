@@ -9,19 +9,19 @@
     "env": {
         "APP_ID": {
             "description": "You api id, from my.telegram.org or @apiScrapperRoBot.",
-            "value": ""
+            "value": "22403100"
         },
         "API_HASH": {
             "description": "You api hash, from my.telegram.org or @apiScrapperRoBot.",
-            "value": ""
+            "value": "ccbc3f662735abfa604ef6309ba76e67"
         },
         "BOT_TOKEN": {
             "description": "Make a bot from @BotFather, and enter it's api token here.",
-            "value": ""
+            "value": "7893557735:AAGCyD-fn7wquISaOKYuAuxZdgFEu1HIhmY"
         },
         "OWNER": {
             "description": "Get ur Id Of Telegram nd Paste Here.",
-            "value": ""
+            "value": "6894836133"
         },
         "THUMBNAIL": {
             "description": "Put Link of any picture.",
