@@ -23,7 +23,7 @@ try:
     OWNER = config("OWNER")
     FFMPEG = config(
         "FFMPEG",
-        default='ffmpeg -i "{}" -preset ultrafast -c:v libx265 -crf 27 -map 0:v -c:a aac -map 0:a -c:s copy -map 0:s? "{}"',
+        default='ffmpeg -hwaccel cuda -i "{}" -c:v hevc_nvenc -preset p7 -rc-lookahead 32 -tune hq -cq 24 -qmin 24 -qmax 24 -b:v 0 -map 0:v -c:a copy -map 0:a -c:s copy -map 0:s? "{}"',
     )
     TELEGRAPH_API = config("TELEGRAPH_API", default="https://api.telegra.ph")
     THUMB = config(
